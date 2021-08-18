@@ -11,8 +11,14 @@ h1{
 	margin: 20px;
 }
 
+.container{
+	width: 80%;
+}
+
 .row{
 	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #chicken, #beef, #sushi{
@@ -35,7 +41,7 @@ h1{
 }
 
 #chicken > p, #beef > p, #sushi > p{
-	padding: 30px 15px;
+	padding: 45px 15px;
 	overflow: hidden;
 }
 
