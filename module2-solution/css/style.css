@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body{
+	align-content: center;
+}
+
 h1{
 	text-align: center;
 	margin-left: auto;
@@ -12,13 +16,14 @@ h1{
 }
 
 .container{
-	width: 80%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .row{
 	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
+
 }
 
 #chicken, #beef, #sushi{
