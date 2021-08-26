@@ -9,7 +9,6 @@
 	display: block;
 	background-color: #999999;
 	border: 3px solid black;
-	height: 70px;
 	width: 100%;
 }
 
@@ -26,27 +25,29 @@
 
 .navbar-brand{
 	padding: 0;
+	font-size: 50px;
 }
 
-.navbar-brand > a {
-	color: black ;
+.navbar-brand > h1 {
 	float: left;
-	text-decoration: none;
-	margin-top: -5px;
+	font-size: 35px;
+	font-weight: bolder;
+	margin-top: 8px;
 	margin-left: auto;
 	margin-right: auto;
 
 }
 
-.navbar-brand > h1{
-	margin-top: 0;
-	font-family: 'Lora', serif;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
+.navbar-brand > h1 > a{
+	text-decoration: none;
+	color: black;
+
 }
 
 #nav-list a{
-	color: darkgray;
+	font-size: 1.5em;
+	color: black;
+	font-weight: bold;
 	text-align: center;
 	background-color: gray;
 	border: 3px solid black;
@@ -80,4 +81,14 @@
 	display: block;
 	padding: 10px;
 	background-color: #999999;
+}
+
+.main-title{
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+.menu-content > h4{
+ 	font-size: 25px;
+ 	font-weight: bolder;
 }
